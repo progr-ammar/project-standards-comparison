@@ -48,3 +48,4 @@ class BookmarksProvider extends ChangeNotifier {
     _prefs.setString(_key, raw);
   }
 }
+

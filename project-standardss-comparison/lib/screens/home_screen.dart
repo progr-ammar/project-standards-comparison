@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../providers/search_provider.dart';
 import 'reader_screen.dart';
+import 'parallel_search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -39,16 +40,10 @@ class _HomeScreenState extends State<HomeScreen> {
             recent: recent,
             onSubmitted: (q) {
               context.read<SearchProvider>().addRecent(q);
-              // Navigate to PMBOK by default on global search; can extend to all
+              // Navigate to parallel search showing results from all books
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder:
-                      (_) => ReaderScreen(
-                        title: 'PMBOK 7',
-                        assetPath: 'assets/pmbok7.pdf',
-                        bookId: 'pmbok7',
-                        initialSearch: q,
-                      ),
+                  builder: (_) => ParallelSearchScreen(query: q),
                 ),
               );
             },
@@ -90,7 +85,7 @@ class _SearchBar extends StatelessWidget {
           controller: controller,
           decoration: InputDecoration(
             prefixIcon: const Icon(Icons.search),
-            hintText: 'Search any topic across standards',
+            hintText: 'Search across all 3 standards (PMBOK, PRINCE2, ISO)',
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
           ),
           textInputAction: TextInputAction.search,
