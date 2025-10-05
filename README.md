@@ -192,7 +192,7 @@ If files disappear from VS Code Explorer:
 - Display all 3 standards as clickable cards
 - Global search bar for topic search
 - Recent search chips
-- Theme toggle0 (dark/light mode *which is available on top right*)
+- Theme toggle (dark/light mode *which is available on top right*)
 
 ### **Reader Screen**
 - Full PDF viewer with search capabilities
