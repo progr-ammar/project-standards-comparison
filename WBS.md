@@ -1,157 +1,127 @@
-# Work Breakdown Structure (WBS)
+# WORK BREAKDOWN STRUCTURE (WBS)
 ## PM Standards Comparison & Process Design Application
 
-### 1.0 Project Management Standards App Development
-
-#### 1.1 Project Initiation & Planning
-- 1.1.1 Requirements Analysis
-  - 1.1.1.1 Analyze assignment requirements
-  - 1.1.1.2 Define functional requirements
-  - 1.1.1.3 Define non-functional requirements
-- 1.1.2 Technology Selection
-  - 1.1.2.1 Evaluate Flutter vs other frameworks
-  - 1.1.2.2 Select PDF viewer library (Syncfusion)
-  - 1.1.2.3 Choose state management approach (Provider)
-
-#### 1.2 Standards Repository Development
-- 1.2.1 PDF Integration
-  - 1.2.1.1 Integrate PMBOK 7th Edition PDF
-  - 1.2.1.2 Integrate PRINCE2 PDF
-  - 1.2.1.3 Integrate ISO 21502 PDF
-- 1.2.2 Reader Functionality
-  - 1.2.2.1 Implement PDF viewer with search
-  - 1.2.2.2 Add bookmark management
-  - 1.2.2.3 Create table of contents navigation
-  - 1.2.2.4 Implement deep linking to pages
-
-#### 1.3 Comparison Engine Development
-- 1.3.1 Topic Mapping
-  - 1.3.1.1 Identify 18 core comparison topics
-  - 1.3.1.2 Map topics to specific pages in each standard
-  - 1.3.1.3 Create synonyms and search terms
-- 1.3.2 Comparison Interface
-  - 1.3.2.1 Design side-by-side comparison layout
-  - 1.3.2.2 Implement fuzzy search functionality
-  - 1.3.2.3 Create deep linking from comparisons to PDFs
-- 1.3.3 Insight Generation
-  - 1.3.3.1 Develop similarity analysis logic
-  - 1.3.3.2 Create difference identification system
-  - 1.3.3.3 Implement unique point extraction
-
-#### 1.4 Process Design & Tailoring
-- 1.4.1 Tailoring Engine
-  - 1.4.1.1 Define project characteristics (type, complexity, delivery)
-  - 1.4.1.2 Create governance and risk appetite options
-  - 1.4.1.3 Develop recommendation algorithms
-- 1.4.2 Process Generation
-  - 1.4.2.1 Generate tailored phases based on inputs
-  - 1.4.2.2 Recommend practices from all three standards
-  - 1.4.2.3 Create artifact recommendations
-  - 1.4.2.4 Implement loading states and result display
-
-#### 1.5 User Interface & Experience
-- 1.5.1 Navigation Design
-  - 1.5.1.1 Create bottom navigation bar
-  - 1.5.1.2 Design home screen with book cards
-  - 1.5.1.3 Implement theme switching (dark/light)
-- 1.5.2 Screen Development
-  - 1.5.2.1 Develop home screen
-  - 1.5.2.2 Create reader screen with drawer
-  - 1.5.2.3 Build compare screen with search
-  - 1.5.2.4 Design generate screen with options
-
-#### 1.6 State Management & Services
-- 1.6.1 Provider Implementation
-  - 1.6.1.1 Create ThemeProvider for theme management
-  - 1.6.1.2 Implement BookmarksProvider for PDF bookmarks
-  - 1.6.1.3 Develop SearchProvider for recent searches
-  - 1.6.1.4 Build IndexProvider for dynamic content
-- 1.6.2 Service Layer
-  - 1.6.2.1 Create StandardsIndexService for PDF parsing
-  - 1.6.2.2 Implement text extraction and tokenization
-  - 1.6.2.3 Develop caching mechanisms
-  - 1.6.2.4 Add lazy loading for performance
-
-#### 1.7 Testing & Quality Assurance
-- 1.7.1 Functionality Testing
-  - 1.7.1.1 Test PDF loading and navigation
-  - 1.7.1.2 Verify comparison accuracy
-  - 1.7.1.3 Test process generation logic
-  - 1.7.1.4 Validate deep linking functionality
-- 1.7.2 Performance Testing
-  - 1.7.2.1 Test with large PDF files
-  - 1.7.2.2 Verify memory usage optimization
-  - 1.7.2.3 Check loading times and responsiveness
-
-#### 1.8 Documentation & Deployment
-- 1.8.1 Technical Documentation
-  - 1.8.1.1 Create comprehensive README
-  - 1.8.1.2 Document architecture decisions
-  - 1.8.1.3 Write setup and installation guide
-- 1.8.2 Assignment Documentation
-  - 1.8.2.1 Create WBS document
-  - 1.8.2.2 Document comparison methodology
-  - 1.8.2.3 Justify process design choices
-- 1.8.3 Deployment Preparation
-  - 1.8.3.1 Build Windows executable
-  - 1.8.3.2 Test on different Windows versions
-  - 1.8.3.3 Prepare GitHub repository
-
-#### 1.9 Project Closure
-- 1.9.1 Final Testing
-  - 1.9.1.1 End-to-end testing of all features
-  - 1.9.1.2 User acceptance testing
-  - 1.9.1.3 Cross-platform compatibility check
-- 1.9.2 Deliverable Preparation
-  - 1.9.2.1 Package final application
-  - 1.9.2.2 Prepare presentation materials
-  - 1.9.2.3 Submit assignment deliverables
-
-### 2.0 Risk Management
-
-#### 2.1 Technical Risks
-- 2.1.1 PDF Processing Challenges
-  - 2.1.1.1 Large file size handling
-  - 2.1.1.2 Text extraction accuracy
-  - 2.1.1.3 Cross-platform compatibility
-- 2.1.2 Performance Risks
-  - 2.1.2.1 Memory usage with large PDFs
-  - 2.1.2.2 Loading time optimization
-  - 2.1.2.3 UI responsiveness
-
-#### 2.2 Project Risks
-- 2.2.1 Scope Creep
-  - 2.2.1.1 Feature addition requests
-  - 2.2.1.2 Perfectionism vs. delivery
-- 2.2.2 Resource Constraints
-  - 2.2.2.1 Development time limitations
-  - 2.2.2.2 Testing time allocation
-
-### 3.0 Quality Management
-
-#### 3.1 Code Quality
-- 3.1.1 Code Standards
-  - 3.1.1.1 Follow Flutter/Dart conventions
-  - 3.1.1.2 Implement proper error handling
-  - 3.1.1.3 Use meaningful variable names
-- 3.1.2 Documentation
-  - 3.1.2.1 Comment complex logic
-  - 3.1.2.2 Document API interfaces
-  - 3.1.2.3 Maintain README updates
-
-#### 3.2 User Experience Quality
-- 3.2.1 Usability Testing
-  - 3.2.1.1 Intuitive navigation flow
-  - 3.2.1.2 Clear visual hierarchy
-  - 3.2.1.3 Responsive design
-- 3.2.2 Accessibility
-  - 3.2.2.1 Screen reader compatibility
-  - 3.2.2.2 Keyboard navigation
-  - 3.2.2.3 Color contrast compliance
+**Project Name**: PM Standards Comparison & Process Design Application   
+**WBS Approach**: Hybrid (Product Oriented + Process Oriented)
 
 ---
 
-**Total Estimated Effort**: 40-50 hours
-**Project Duration**: 11 days
-**Team Size**: 3 members
-**Deliverables**: Functional app, WBS, README, GitHub repository
+## 1.0 PM STANDARDS APPLICATION DEVELOPMENT
+
+### 1.1 PROJECT MANAGEMENT
+- **1.1.1** Project Charter
+- **1.1.2** Scope Statement  
+- **1.1.3** Project Schedule
+- **1.1.4** Risk Management Plan
+- **1.1.5** Change Management Plan
+- **1.1.6** Communication Plan
+- **1.1.7** Quality Management Plan
+
+### 1.2 ANALYSIS
+- **1.2.1** Requirements Analysis
+  - **1.2.1.1** Functional Requirements
+  - **1.2.1.2** Non-Functional Requirements
+  - **1.2.1.3** User Stories
+- **1.2.2** Standards Analysis
+  - **1.2.2.1** PMBOK 7 Analysis
+  - **1.2.2.2** PRINCE2 Analysis
+  - **1.2.2.3** ISO 21502 Analysis
+- **1.2.3** Comparison Framework
+  - **1.2.3.1** Topic Identification
+  - **1.2.3.2** Comparison Criteria
+  - **1.2.3.3** Insight Generation Logic
+
+### 1.3 DESIGN
+- **1.3.1** System Architecture
+  - **1.3.1.1** Application Architecture
+  - **1.3.1.2** Data Architecture
+  - **1.3.1.3** Service Architecture
+- **1.3.2** User Interface Design
+  - **1.3.2.1** Screen Designs
+  - **1.3.2.2** Navigation Design
+  - **1.3.2.3** Theme Design
+- **1.3.3** Database Design
+  - **1.3.3.1** Data Models
+  - **1.3.3.2** Storage Design
+  - **1.3.3.3** Caching Strategy
+
+### 1.4 CONSTRUCTION
+- **1.4.1** Standards Repository Module
+  - **1.4.1.1** PDF Integration
+  - **1.4.1.2** Reader Implementation
+  - **1.4.1.3** Search Functionality
+  - **1.4.1.4** Bookmark System
+- **1.4.2** Comparison Engine Module
+  - **1.4.2.1** Topic Mapping System
+  - **1.4.2.2** Comparison Interface
+  - **1.4.2.3** Deep Linking System
+  - **1.4.2.4** Insight Generation
+- **1.4.3** Process Design Module
+  - **1.4.3.1** Tailoring Engine
+  - **1.4.3.2** Recommendation System
+  - **1.4.3.3** Process Generation
+  - **1.4.3.4** Evidence Integration
+- **1.4.4** User Interface Module
+  - **1.4.4.1** Home Screen
+  - **1.4.4.2** Reader Screen
+  - **1.4.4.3** Compare Screen
+  - **1.4.4.4** Generate Screen
+- **1.4.5** State Management Module
+  - **1.4.5.1** Theme Provider
+  - **1.4.5.2** Bookmarks Provider
+  - **1.4.5.3** Search Provider
+  - **1.4.5.4** Index Provider
+- **1.4.6** Services Module
+  - **1.4.6.1** Standards Index Service
+  - **1.4.6.2** Text Extraction Service
+  - **1.4.6.3** Caching Service
+  - **1.4.6.4** Performance Service
+
+### 1.5 TESTING
+- **1.5.1** Unit Testing
+  - **1.5.1.1** Service Testing
+  - **1.5.1.2** Provider Testing
+  - **1.5.1.3** Utility Testing
+- **1.5.2** Integration Testing
+  - **1.5.2.1** Module Integration
+  - **1.5.2.2** PDF Integration
+  - **1.5.2.3** Deep Linking Testing
+- **1.5.3** System Testing
+  - **1.5.3.1** End-to-End Testing
+  - **1.5.3.2** Performance Testing
+  - **1.5.3.3** Usability Testing
+- **1.5.4** User Acceptance Testing
+  - **1.5.4.1** Functionality Testing
+  - **1.5.4.2** User Experience Testing
+  - **1.5.4.3** Cross-Platform Testing
+
+### 1.6 ROLLOUT
+- **1.6.1** Deployment Preparation
+  - **1.6.1.1** Build Configuration
+  - **1.6.1.2** Package Creation
+  - **1.6.1.3** Installation Scripts
+- **1.6.2** Documentation
+  - **1.6.2.1** User Manual
+  - **1.6.2.2** Technical Documentation
+  - **1.6.2.3** Setup Guide
+- **1.6.3** Training
+  - **1.6.3.1** User Training
+  - **1.6.3.2** Administrator Training
+  - **1.6.3.3** Support Training
+- **1.6.4** Go-Live
+  - **1.6.4.1** Production Deployment
+  - **1.6.4.2** User Onboarding
+  - **1.6.4.3** Support Activation
+
+
+## DELIVERABLES SUMMARY
+
+### **Level 1 Deliverable**: PM Standards Application
+
+**Estimated Duration**: 11 days  
+**Team Size**: 3 members  
+**Estimated Effort**: 50-60 hours
+
+---
+
+**WBS Dictionary**: Each work package includes detailed description, acceptance criteria, deliverables, and resource requirements as per PMBOK standards.
