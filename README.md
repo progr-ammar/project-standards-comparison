@@ -12,6 +12,11 @@ A Flutter application that consolidates PMBOK 7th Edition, PRINCE2, and ISO 2150
 - **Search & Navigation**: Full PDF search, bookmarks, table of contents
 - **Modern UI/UX**: Material Design with dark/light theme support
 
+### 📋 **Missing Components**
+- **WBS (Work Breakdown Structure)**: To be created separately
+- **Process Design Documentation**: Detailed justification for recommendations
+- **GitHub Repository**: For easy access and review
+
 ## 🚀 **How to Run in VS Code**
 
 ### **Prerequisites**
@@ -34,7 +39,7 @@ A Flutter application that consolidates PMBOK 7th Edition, PRINCE2, and ISO 2150
 ```bash
 # If using Git
 git clone <repository-url>
-cd project-standards-comparison
+cd pm4_app
 
 # Or download ZIP and extract to pm4_app folder
 ```
@@ -42,7 +47,7 @@ cd project-standards-comparison
 #### **2. Open in VS Code**
 ```bash
 # Navigate to project folder
-cd project-standards-comparison
+cd pm4_app
 
 # Open VS Code
 code .
@@ -93,6 +98,93 @@ flutter build windows
 
 # Output: build/windows/x64/runner/Release/pm4_app.exe
 ```
+
+## 🔧 **Troubleshooting**
+
+### **Common Issues**
+
+**1. Build Errors**
+```bash
+# Clean and rebuild
+flutter clean
+flutter pub get
+flutter run -d windows
+```
+
+**2. PDF Not Loading**
+- Ensure PDF files are in `assets/` folder
+- Check `pubspec.yaml` assets section
+- Run `flutter pub get` after adding assets
+
+**3. Syncfusion License**
+- App uses Syncfusion PDF viewer (free for students)
+- No license key required for development
+
+**4. Windows Build Issues**
+- Ensure Visual Studio 2022 is installed
+- Install Windows 10/11 SDK
+- Run `flutter doctor` to verify setup
+
+**5. VS Code Plugin Symlink Errors**
+If you get `PathExistsException: Cannot create link` error in VS Code:
+
+**Solution A: Clean Build**
+```bash
+# In VS Code terminal (Ctrl+`)
+flutter clean
+flutter pub get
+flutter run -d windows
+```
+
+**Solution B: Manual Cleanup**
+1. Close VS Code completely
+2. Delete these folders manually in File Explorer:
+   - `windows\flutter\ephemeral`
+   - `build\windows`
+   - `.dart_tool`
+3. Reopen VS Code
+4. Run `flutter pub get`
+5. Try `flutter run -d windows`
+
+**Solution C: Run as Administrator**
+1. Right-click VS Code → "Run as administrator"
+2. Open project folder
+3. Try `flutter run -d windows`
+
+**Solution D: Reset Flutter**
+```bash
+# In VS Code terminal
+flutter clean
+flutter pub cache repair
+flutter pub get
+flutter run -d windows
+```
+
+**6. File Explorer Not Showing Files**
+If files disappear from VS Code Explorer:
+- Press `Ctrl+Shift+P` → "Developer: Reload Window"
+- Or File → Open Folder → Select `pm4_app` folder
+- Check if you're in the correct directory
+
+### **VS Code Specific Issues**
+
+**Problem**: `PathExistsException: Cannot create link` error
+**Cause**: Plugin symlinks get corrupted in VS Code
+**Solutions** (try in order):
+
+1. **Quick Fix**: `flutter clean` → `flutter pub get` → `flutter run -d windows`
+2. **Manual Cleanup**: Delete `windows\flutter\ephemeral` folder manually
+3. **Restart VS Code**: Close completely, reopen project
+4. **Run as Admin**: Right-click VS Code → "Run as administrator"
+5. **Reset Flutter**: `flutter pub cache repair` → `flutter pub get`
+
+**Problem**: Files not showing in Explorer
+**Solution**: `Ctrl+Shift+P` → "Developer: Reload Window"
+
+### **Performance Tips**
+- PDFs are lazy-loaded to prevent UI freezes
+- Caching is implemented for instant topic re-opening
+- Large PDFs (like PRINCE2) may take 2-3 seconds to load initially
 
 ## 📱 **App Features**
 
@@ -207,10 +299,10 @@ This application demonstrates:
 
 ## 👥 **Group Assignment**
 
-**Team Members**: Muhammad Ammar Bin Talib
-                  Muhammad Dawood Khan
-                  Muhammad Ibrahim Butt
-**Course**:       Project Management
+**Team Members**: [Add your names]
+**Course**: [Course name]
+**Instructor**: [Instructor name]
+**Due Date**: [Due date]
 
 ## 📄 **License**
 
