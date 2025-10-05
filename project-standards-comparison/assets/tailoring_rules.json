@@ -1,0 +1,28 @@
+{
+  "IT Software|Medium|Agile": {
+    "phases": ["Inception", "Iterations", "Release"],
+    "practices": [
+      "Backlog management (PMBOK Value Delivery)",
+      "Management by exception (PRINCE2 tolerances)",
+      "Iterative planning with timeboxes"
+    ],
+    "artifacts": [
+      "Product backlog", "Sprint backlog", "Definition of Done", "Risk register"
+    ]
+  },
+  "Construction|High|Predictive": {
+    "phases": ["Initiation", "Planning", "Execution", "Monitoring & Control", "Closing"],
+    "practices": [
+      "Stage boundaries (PRINCE2)",
+      "Baseline management (PMBOK)",
+      "Compliance focus (ISO context)"
+    ],
+    "artifacts": ["Scope baseline", "Schedule baseline", "Cost baseline", "Quality plan"]
+  },
+  "Research|Low|Hybrid": {
+    "phases": ["Concept", "Exploration", "Synthesis"],
+    "practices": ["Risk spikes", "Lightweight governance", "Stakeholder reviews"],
+    "artifacts": ["Experiment log", "Findings", "Decision record"]
+  }
+}
+

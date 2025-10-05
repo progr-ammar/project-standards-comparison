@@ -1,0 +1,13 @@
+{
+  "Risk Management": { "PMBOK": 250, "PRINCE2": 120, "ISO": 75 },
+  "Stakeholder Engagement": { "PMBOK": 180, "PRINCE2": 90, "ISO": 60 },
+  "Scope Management": { "PMBOK": 140, "PRINCE2": 80, "ISO": 55 },
+  "Schedule Management": { "PMBOK": 160, "PRINCE2": 95, "ISO": 58 },
+  "Cost Management": { "PMBOK": 170, "PRINCE2": 96, "ISO": 59 },
+  "Quality Management": { "PMBOK": 190, "PRINCE2": 100, "ISO": 65 },
+  "Resource Management": { "PMBOK": 200, "PRINCE2": 110, "ISO": 70 },
+  "Communications Management": { "PMBOK": 210, "PRINCE2": 105, "ISO": 68 },
+  "Procurement Management": { "PMBOK": 230, "PRINCE2": 130, "ISO": 78 },
+  "Change Control": { "PMBOK": 260, "PRINCE2": 140, "ISO": 85 }
+}
+

@@ -1,0 +1,166 @@
+{
+  "topics": [
+    {
+      "name": "Governance & Roles",
+      "synonyms": ["governance", "roles", "accountability", "authority", "decision-making", "structure"],
+      "pages": {
+        "pmbok7": 45,
+        "prince2": 12,
+        "iso21502": 8
+      }
+    },
+    {
+      "name": "Project Life Cycle / Phases",
+      "synonyms": ["lifecycle", "phases", "initiation", "delivery", "closure", "stages"],
+      "pages": {
+        "pmbok7": 67,
+        "prince2": 25,
+        "iso21502": 15
+      }
+    },
+    {
+      "name": "Planning & Scope Management",
+      "synonyms": ["planning", "scope", "requirements", "product scope", "work breakdown"],
+      "pages": {
+        "pmbok7": 89,
+        "prince2": 45,
+        "iso21502": 22
+      }
+    },
+    {
+      "name": "Risk & Uncertainty",
+      "synonyms": ["risk", "uncertainty", "threats", "opportunities", "risk management"],
+      "pages": {
+        "pmbok7": 125,
+        "prince2": 78,
+        "iso21502": 35
+      }
+    },
+    {
+      "name": "Quality Management",
+      "synonyms": ["quality", "assurance", "control", "standards", "deliverable quality"],
+      "pages": {
+        "pmbok7": 145,
+        "prince2": 95,
+        "iso21502": 42
+      }
+    },
+    {
+      "name": "Stakeholder & Communication",
+      "synonyms": ["stakeholders", "engagement", "communication", "stakeholder management"],
+      "pages": {
+        "pmbok7": 167,
+        "prince2": 112,
+        "iso21502": 55
+      }
+    },
+    {
+      "name": "Change & Issue Management",
+      "synonyms": ["change", "change management", "issues", "change control board"],
+      "pages": {
+        "pmbok7": 189,
+        "prince2": 128,
+        "iso21502": 68
+      }
+    },
+    {
+      "name": "Benefits / Value Realization",
+      "synonyms": ["benefits", "value", "outcomes", "value realization"],
+      "pages": {
+        "pmbok7": 201,
+        "prince2": 145,
+        "iso21502": 78
+      }
+    },
+    {
+      "name": "Tailoring & Adaptability",
+      "synonyms": ["tailor", "adaptation", "scaling", "methodology"],
+      "pages": {
+        "pmbok7": 223,
+        "prince2": 158,
+        "iso21502": 88
+      }
+    },
+    {
+      "name": "Lessons Learned / Continuous Improvement",
+      "synonyms": ["lessons", "knowledge", "continuous improvement", "learning"],
+      "pages": {
+        "pmbok7": 245,
+        "prince2": 172,
+        "iso21502": 95
+      }
+    },
+    {
+      "name": "Integration & Coordination",
+      "synonyms": ["integration", "coordination", "interfaces", "unified"],
+      "pages": {
+        "pmbok7": 89,
+        "prince2": 45,
+        "iso21502": 22
+      }
+    },
+    {
+      "name": "Procurement & Resource Management",
+      "synonyms": ["procurement", "contracts", "supplier", "vendor", "resources", "team"],
+      "pages": {
+        "pmbok7": 267,
+        "prince2": 185,
+        "iso21502": 108
+      }
+    },
+    {
+      "name": "Communication Management",
+      "synonyms": ["communication", "reporting", "information", "messaging"],
+      "pages": {
+        "pmbok7": 167,
+        "prince2": 112,
+        "iso21502": 55
+      }
+    },
+    {
+      "name": "Performance Measurement & Progress",
+      "synonyms": ["measurement", "monitoring", "controls", "kpi", "progress", "tracking"],
+      "pages": {
+        "pmbok7": 289,
+        "prince2": 198,
+        "iso21502": 118
+      }
+    },
+    {
+      "name": "Sustainability & Social Responsibility",
+      "synonyms": ["sustainability", "social responsibility", "environmental", "ethical"],
+      "pages": {
+        "pmbok7": 311,
+        "prince2": 212,
+        "iso21502": 128
+      }
+    },
+    {
+      "name": "Schedule Management",
+      "synonyms": ["schedule", "time", "planning", "plan", "timeline"],
+      "pages": {
+        "pmbok7": 333,
+        "prince2": 225,
+        "iso21502": 138
+      }
+    },
+    {
+      "name": "Cost Management",
+      "synonyms": ["cost", "budget", "estimate", "earned value", "financial"],
+      "pages": {
+        "pmbok7": 355,
+        "prince2": 238,
+        "iso21502": 148
+      }
+    },
+    {
+      "name": "Lifecycle & Approach",
+      "synonyms": ["lifecycle", "agile", "hybrid", "predictive", "approach"],
+      "pages": {
+        "pmbok7": 67,
+        "prince2": 25,
+        "iso21502": 15
+      }
+    }
+  ]
+}

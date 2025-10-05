@@ -1,0 +1,44 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+generated_plugin_registrant.dart
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+.history/
+
+# Miscellaneous
+*.lock
+*.log
+*.tmp
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.svn/
+*.pyc
+*.pyo
+*.pdb
+*.so
+*.dylib
+*.dll
+*.exe
+*.class
+*.apk
+*.aab
+
+# Flutter environment files
+.metadata

@@ -1,0 +1,34 @@
+{
+  "Risk Management": {
+    "Similarities": [
+      "All emphasize proactive identification and assessment of risks.",
+      "Contingency planning and monitoring are recommended across all three."
+    ],
+    "Differences": [
+      "PMBOK frames risks within performance domains and risk responses.",
+      "PRINCE2 stresses risk ownership and management by exception.",
+      "ISO links risk to organizational context and governance."
+    ],
+    "Unique": {
+      "PMBOK": "Risk is tied to value delivery and uncertainty in outcomes.",
+      "PRINCE2": "Formal 'risk owner' role and escalations via tolerances.",
+      "ISO": "Explicit integration with organizational governance and context."
+    }
+  },
+  "Stakeholder Engagement": {
+    "Similarities": [
+      "All require identifying stakeholders and engaging them appropriately."
+    ],
+    "Differences": [
+      "PMBOK details engagement assessment and strategies.",
+      "PRINCE2 aligns stakeholders to roles and responsibilities.",
+      "ISO emphasizes leadership and communication context."
+    ],
+    "Unique": {
+      "PMBOK": "Engagement evaluation metrics and iterative strategies.",
+      "PRINCE2": "Defined roles such as Executive, Senior User, Senior Supplier.",
+      "ISO": "Focus on organizational context and leadership involvement."
+    }
+  }
+}
+

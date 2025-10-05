@@ -1,0 +1,100 @@
+{
+  "projectType": {
+    "IT Software": {
+      "phases": ["Inception", "Iterations", "Release"],
+      "practices": ["Backlog refinement", "Sprint planning", "CI/CD pipeline"],
+      "artifacts": ["Product backlog", "Sprint backlog", "Increment"]
+    },
+    "Construction": {
+      "phases": ["Design", "Procurement", "Construction", "Handover"],
+      "practices": ["Quality inspections", "HSE briefings", "Contract management"],
+      "artifacts": ["Method statements", "Inspection test plan", "As-built drawings"]
+    },
+    "Research": {
+      "phases": ["Concept", "Exploration", "Synthesis"],
+      "practices": ["Ethics approval", "Data management plan", "Peer review"],
+      "artifacts": ["Experiment log", "Findings report", "Dataset description"]
+    },
+    "Clinical Trial": {
+      "phases": ["Protocol", "Start-up", "Enrollment", "Analysis", "Close-out"],
+      "practices": ["Site initiation visit", "Monitoring plan", "Safety reporting"],
+      "artifacts": ["Trial master file", "Case report forms", "Statistical analysis plan"]
+    },
+    "Finance/Banking": {
+      "phases": ["Initiation", "Planning", "Execution", "Control", "Close"],
+      "practices": ["Compliance reviews", "Controls testing", "Change approvals"],
+      "artifacts": ["SOX controls matrix", "Audit trail", "Risk register"]
+    },
+    "Data Science/AI": {
+      "phases": ["Problem framing", "Data", "Model", "Evaluate", "Deploy"],
+      "practices": ["Bias assessment", "Reproducibility checks", "MLOps"],
+      "artifacts": ["Model card", "Datasheet for datasets", "Evaluation report"]
+    }
+  },
+  "delivery": {
+    "Agile": {
+      "practices": ["Daily stand-ups", "Sprint review", "Retrospective"],
+      "artifacts": ["DoD", "Roadmap"]
+    },
+    "Predictive": {
+      "practices": ["Critical path scheduling", "Change control board", "Stage gate reviews"],
+      "artifacts": ["WBS dictionary", "Schedule baseline", "Cost baseline"]
+    },
+    "Hybrid": {
+      "practices": ["Dual-track discovery & delivery", "Stage boundary re-plan"],
+      "artifacts": ["Release plan", "Governance calendar"]
+    },
+    "Incremental": {
+      "practices": ["Incremental delivery planning"],
+      "artifacts": ["Release notes"]
+    },
+    "Iterative": {
+      "practices": ["Iteration demos", "Iteration retros"],
+      "artifacts": ["Iteration plan"]
+    }
+  },
+  "governance": {
+    "Light": {
+      "practices": ["Lightweight change process"],
+      "artifacts": ["Decision log"]
+    },
+    "Moderate": {
+      "practices": ["Periodic steering reviews"],
+      "artifacts": ["Status report"]
+    },
+    "Strict": {
+      "practices": ["Management by exception", "Formal approvals at stage boundaries"],
+      "artifacts": ["Exception report", "Stage plan"]
+    }
+  },
+  "riskAppetite": {
+    "Low": {
+      "practices": ["Risk workshops each stage", "Mitigation planning"],
+      "artifacts": ["Risk register updates"]
+    },
+    "Balanced": {
+      "practices": ["Proportional risk responses"],
+      "artifacts": []
+    },
+    "High": {
+      "practices": ["Exploit opportunities", "Fast escalation"],
+      "artifacts": ["Opportunity log"]
+    }
+  },
+  "complexity": {
+    "Very Low": {
+      "practices": ["Light documentation"],
+      "artifacts": []
+    },
+    "Low": {"practices": ["Simple change board"], "artifacts": []},
+    "Medium": {"practices": ["Baseline variance analysis"], "artifacts": []},
+    "High": {
+      "practices": ["Architecture/design reviews", "Interface management"],
+      "artifacts": ["Interface register"]
+    },
+    "Very High": {
+      "practices": ["Independent QA", "Progressive elaboration"],
+      "artifacts": ["Quality audit report"]
+    }
+  }
+}
