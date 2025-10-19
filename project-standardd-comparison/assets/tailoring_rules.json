@@ -1,0 +1,219 @@
+{
+  "project_scenarios": {
+    "custom_software_development": {
+      "name": "Custom Software Development Project",
+      "description": "Well-defined requirements, <6 months, <7 team members",
+      "characteristics": {
+        "duration": "<6 months",
+        "team_size": "<7 members",
+        "requirements_clarity": "well-defined",
+        "complexity": "medium",
+        "risk_level": "low"
+      },
+      "pmbok_references": {
+        "life_cycle": "Adaptive/Agile (Section 2.4)",
+        "processes": [
+          "Plan Scope Management (5.1)",
+          "Create WBS (5.4)",
+          "Plan Schedule Management (6.1)",
+          "Define Activities (6.2)",
+          "Plan Quality Management (8.1)",
+          "Plan Communications Management (10.1)"
+        ],
+        "tailoring_considerations": "Lightweight documentation, frequent stakeholder feedback, iterative delivery"
+      },
+      "prince2_references": {
+        "themes": ["Business Case", "Quality", "Plans", "Risk"],
+        "processes": [
+          "Starting up a Project (SU)",
+          "Managing Product Delivery (MP)",
+          "Controlling a Stage (CS)"
+        ],
+        "tailoring": "Light governance, combined stages, simplified products"
+      },
+      "iso21502_references": {
+        "sections": [
+          "4.3 Project governance",
+          "4.4 Project life cycle and phases",
+          "5.2 Stakeholder management",
+          "5.3 Project team management"
+        ],
+        "tailoring": "Proportionate governance, streamlined processes"
+      }
+    },
+    "innovative_product_development": {
+      "name": "Innovative Product Development Project",
+      "description": "R&D-heavy, uncertain outcomes, ~1 year duration",
+      "characteristics": {
+        "duration": "~1 year",
+        "uncertainty": "high",
+        "innovation_level": "high",
+        "complexity": "high",
+        "risk_level": "high"
+      },
+      "pmbok_references": {
+        "life_cycle": "Hybrid (Predictive + Adaptive) (Section 2.4)",
+        "processes": [
+          "Plan Risk Management (11.1)",
+          "Identify Risks (11.2)",
+          "Plan Stakeholder Engagement (13.2)",
+          "Manage Stakeholder Engagement (13.3)",
+          "Plan Resource Management (9.1)",
+          "Control Resources (9.6)"
+        ],
+        "tailoring_considerations": "Stage-gate reviews, adaptive planning, continuous stakeholder engagement"
+      },
+      "prince2_references": {
+        "themes": ["Business Case", "Risk", "Change", "Progress"],
+        "processes": [
+          "Directing a Project (DP)",
+          "Managing a Stage Boundary (SB)",
+          "Controlling a Stage (CS)"
+        ],
+        "tailoring": "Enhanced risk management, flexible stage boundaries, continuous business case review"
+      },
+      "iso21502_references": {
+        "sections": [
+          "4.2 Strategy and business case",
+          "5.1 Integration management",
+          "5.4 Risk management",
+          "5.6 Resource management"
+        ],
+        "tailoring": "Adaptive governance, innovation-focused processes"
+      }
+    },
+    "large_government_project": {
+      "name": "Large Government Project",
+      "description": "Civil, electrical, and IT components, 2-year duration",
+      "characteristics": {
+        "duration": "2 years",
+        "complexity": "very_high",
+        "domains": ["civil", "electrical", "IT"],
+        "governance": "heavy",
+        "compliance": "high"
+      },
+      "pmbok_references": {
+        "life_cycle": "Predictive (Section 2.4)",
+        "processes": [
+          "Plan Procurement Management (12.1)",
+          "Conduct Procurements (12.2)",
+          "Control Procurements (12.3)",
+          "Plan Risk Management (11.1)",
+          "Monitor Risks (11.7)",
+          "Plan Communications Management (10.1)",
+          "Monitor Communications (10.3)"
+        ],
+        "tailoring_considerations": "Comprehensive documentation, formal approvals, regulatory compliance"
+      },
+      "prince2_references": {
+        "themes": ["Business Case", "Organization", "Quality", "Plans", "Risk", "Change", "Progress"],
+        "processes": [
+          "Starting up a Project (SU)",
+          "Initiating a Project (IP)",
+          "Directing a Project (DP)",
+          "Controlling a Stage (CS)",
+          "Managing Product Delivery (MP)",
+          "Managing a Stage Boundary (SB)",
+          "Closing a Project (CP)"
+        ],
+        "tailoring": "Full governance model, comprehensive stage gates, detailed reporting"
+      },
+      "iso21502_references": {
+        "sections": [
+          "4.1 Governance of projects",
+          "4.3 Project governance",
+          "5.5 Procurement management",
+          "5.7 Stakeholder management",
+          "5.8 Communication management"
+        ],
+        "tailoring": "Enterprise governance, multi-domain integration, stakeholder complexity management"
+      }
+    }
+  },
+  "tailoring_rules": {
+    "team_size": {
+      "small": {
+        "threshold": "<7",
+        "recommendations": [
+          "Lightweight documentation",
+          "Informal communication",
+          "Combined roles",
+          "Simplified reporting"
+        ]
+      },
+      "medium": {
+        "threshold": "7-20",
+        "recommendations": [
+          "Moderate documentation",
+          "Regular meetings",
+          "Defined roles",
+          "Standard reporting"
+        ]
+      },
+      "large": {
+        "threshold": ">20",
+        "recommendations": [
+          "Comprehensive documentation",
+          "Formal communication",
+          "Specialized roles",
+          "Detailed reporting"
+        ]
+      }
+    },
+    "duration": {
+      "short": {
+        "threshold": "<6 months",
+        "recommendations": [
+          "Accelerated processes",
+          "Frequent reviews",
+          "Minimal bureaucracy",
+          "Fast decision making"
+        ]
+      },
+      "medium": {
+        "threshold": "6-12 months",
+        "recommendations": [
+          "Balanced processes",
+          "Regular checkpoints",
+          "Moderate governance",
+          "Structured decisions"
+        ]
+      },
+      "long": {
+        "threshold": ">12 months",
+        "recommendations": [
+          "Comprehensive processes",
+          "Formal stage gates",
+          "Full governance",
+          "Documented decisions"
+        ]
+      }
+    },
+    "complexity": {
+      "low": {
+        "recommendations": [
+          "Standard processes",
+          "Basic risk management",
+          "Simple communication",
+          "Minimal customization"
+        ]
+      },
+      "medium": {
+        "recommendations": [
+          "Adapted processes",
+          "Enhanced risk management",
+          "Structured communication",
+          "Moderate customization"
+        ]
+      },
+      "high": {
+        "recommendations": [
+          "Tailored processes",
+          "Comprehensive risk management",
+          "Multi-channel communication",
+          "Extensive customization"
+        ]
+      }
+    }
+  }
+}

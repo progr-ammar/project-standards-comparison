@@ -1,0 +1,112 @@
+{
+  "Governance and Roles": {
+    "keywords": ["governance", "roles", "responsibilities", "authority", "accountability", "steering", "board", "sponsor"],
+    "synonyms": ["management structure", "organizational roles", "project governance", "leadership", "oversight"],
+    "description": "Project governance structures, roles, and responsibilities",
+    "pageMapping": { "PMBOK": 45, "PRINCE2": 25, "ISO": 30 }
+  },
+  "Project Life Cycle / Phases": {
+    "keywords": ["lifecycle", "phases", "stage", "gate", "milestone", "initiation", "planning", "execution", "closure"],
+    "synonyms": ["project phases", "stage gates", "project stages", "lifecycle management"],
+    "description": "Project lifecycle models and phase management",
+    "pageMapping": { "PMBOK": 25, "PRINCE2": 35, "ISO": 20 }
+  },
+  "Planning and Scope Management": {
+    "keywords": ["planning", "scope", "requirements", "deliverables", "work breakdown", "WBS", "scope creep"],
+    "synonyms": ["project planning", "scope definition", "requirements management", "deliverable management"],
+    "description": "Project planning processes and scope management",
+    "pageMapping": { "PMBOK": 140, "PRINCE2": 80, "ISO": 55 }
+  },
+  "Risk and Uncertainty Management": {
+    "keywords": ["risk", "uncertainty", "threat", "opportunity", "mitigation", "contingency", "risk register"],
+    "synonyms": ["risk management", "uncertainty management", "threat analysis", "opportunity management"],
+    "description": "Risk identification, analysis, and management",
+    "pageMapping": { "PMBOK": 250, "PRINCE2": 120, "ISO": 75 }
+  },
+  "Quality Management": {
+    "keywords": ["quality", "assurance", "control", "standards", "testing", "inspection", "acceptance criteria"],
+    "synonyms": ["quality assurance", "quality control", "quality planning", "acceptance management"],
+    "description": "Quality planning, assurance, and control processes",
+    "pageMapping": { "PMBOK": 190, "PRINCE2": 100, "ISO": 65 }
+  },
+  "Stakeholder and Communication Management": {
+    "keywords": ["stakeholder", "communication", "engagement", "consultation", "feedback", "reporting"],
+    "synonyms": ["stakeholder management", "communications management", "stakeholder engagement"],
+    "description": "Stakeholder identification, engagement, and communication",
+    "pageMapping": { "PMBOK": 180, "PRINCE2": 90, "ISO": 60 }
+  },
+  "Change and Issue Management": {
+    "keywords": ["change", "issue", "problem", "exception", "change control", "change request"],
+    "synonyms": ["change management", "issue resolution", "problem management", "exception handling"],
+    "description": "Managing changes and resolving issues during project execution",
+    "pageMapping": { "PMBOK": 260, "PRINCE2": 140, "ISO": 85 }
+  },
+  "Benefits / Value Realization": {
+    "keywords": ["benefits", "value", "realization", "outcome", "business case", "ROI", "value delivery"],
+    "synonyms": ["benefit realization", "value management", "outcome delivery", "business value"],
+    "description": "Realizing project benefits and delivering business value",
+    "pageMapping": { "PMBOK": 65, "PRINCE2": 50, "ISO": 40 }
+  },
+  "Tailoring and Adaptability": {
+    "keywords": ["tailoring", "adaptability", "customization", "flexibility", "agile", "adaptive", "scaling"],
+    "synonyms": ["methodology tailoring", "process adaptation", "flexible approaches", "scaling methods"],
+    "description": "Adapting project management approaches to context",
+    "pageMapping": { "PMBOK": 85, "PRINCE2": 60, "ISO": 45 }
+  },
+  "Lessons Learned / Continuous Improvement": {
+    "keywords": ["lessons learned", "continuous improvement", "retrospective", "knowledge management", "best practices"],
+    "synonyms": ["knowledge capture", "improvement processes", "learning organization", "experience management"],
+    "description": "Capturing lessons learned and continuous improvement",
+    "pageMapping": { "PMBOK": 320, "PRINCE2": 180, "ISO": 120 }
+  },
+  "Integration and Coordination": {
+    "keywords": ["integration", "coordination", "alignment", "synchronization", "dependencies", "interfaces"],
+    "synonyms": ["project integration", "coordination management", "interface management", "dependency management"],
+    "description": "Integrating and coordinating project activities",
+    "pageMapping": { "PMBOK": 105, "PRINCE2": 70, "ISO": 50 }
+  },
+  "Procurement and Resource Management": {
+    "keywords": ["procurement", "resource", "supplier", "contract", "vendor", "outsourcing", "human resources"],
+    "synonyms": ["resource management", "procurement management", "supplier management", "contract management"],
+    "description": "Managing project resources and procurement activities",
+    "pageMapping": { "PMBOK": 230, "PRINCE2": 130, "ISO": 78 }
+  },
+  "Communication Management": {
+    "keywords": ["communication", "reporting", "information", "documentation", "meetings", "status updates"],
+    "synonyms": ["communications management", "information management", "reporting processes", "meeting management"],
+    "description": "Planning and managing project communications",
+    "pageMapping": { "PMBOK": 210, "PRINCE2": 105, "ISO": 68 }
+  },
+  "Performance Measurement and Progress": {
+    "keywords": ["performance", "measurement", "progress", "monitoring", "KPI", "metrics", "tracking"],
+    "synonyms": ["performance monitoring", "progress tracking", "measurement systems", "performance indicators"],
+    "description": "Measuring and monitoring project performance",
+    "pageMapping": { "PMBOK": 280, "PRINCE2": 150, "ISO": 95 }
+  },
+  "Sustainability and Social Responsibility": {
+    "keywords": ["sustainability", "social responsibility", "environment", "ethics", "CSR", "green", "sustainable"],
+    "synonyms": ["environmental management", "corporate social responsibility", "sustainable development", "ethical practices"],
+    "description": "Incorporating sustainability and social responsibility",
+    "pageMapping": { "PMBOK": 75, "PRINCE2": 45, "ISO": 35 }
+  },
+  "Schedule Management": {
+    "keywords": ["schedule", "timeline", "duration", "critical path", "scheduling", "time management", "deadlines"],
+    "synonyms": ["time management", "scheduling processes", "timeline management", "duration estimation"],
+    "description": "Planning and managing project schedules",
+    "pageMapping": { "PMBOK": 160, "PRINCE2": 95, "ISO": 58 }
+  },
+  "Cost Management": {
+    "keywords": ["cost", "budget", "estimation", "financial", "expenditure", "cost control", "earned value"],
+    "synonyms": ["budget management", "financial management", "cost control", "expenditure management"],
+    "description": "Planning and controlling project costs",
+    "pageMapping": { "PMBOK": 170, "PRINCE2": 96, "ISO": 59 }
+  },
+  "LifeCycle and Approach": {
+    "keywords": ["lifecycle", "approach", "methodology", "framework", "process", "model", "method"],
+    "synonyms": ["project approach", "methodology selection", "process framework", "delivery model"],
+    "description": "Selecting and applying project lifecycle approaches",
+    "pageMapping": { "PMBOK": 30, "PRINCE2": 40, "ISO": 25 }
+  }
+}
+
+

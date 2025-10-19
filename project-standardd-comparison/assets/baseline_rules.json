@@ -1,0 +1,270 @@
+{
+  "governance_levels": {
+    "light": {
+      "description": "Minimal oversight, suitable for small, low-risk projects",
+      "characteristics": {
+        "documentation": "minimal",
+        "approvals": "informal",
+        "reporting": "lightweight",
+        "stage_gates": "simplified"
+      },
+      "required_processes": [
+        "Project Initiation",
+        "Scope Definition",
+        "Basic Planning",
+        "Execution Management",
+        "Project Closure"
+      ],
+      "optional_processes": [
+        "Risk Management",
+        "Quality Assurance",
+        "Stakeholder Management"
+      ]
+    },
+    "moderate": {
+      "description": "Balanced governance with regular checkpoints and reviews",
+      "characteristics": {
+        "documentation": "standard",
+        "approvals": "structured",
+        "reporting": "regular",
+        "stage_gates": "defined"
+      },
+      "required_processes": [
+        "Project Charter",
+        "Scope Management",
+        "Schedule Management",
+        "Risk Management",
+        "Quality Management",
+        "Stakeholder Management",
+        "Communication Management",
+        "Project Closure"
+      ],
+      "optional_processes": [
+        "Procurement Management",
+        "Resource Management",
+        "Integration Management"
+      ]
+    },
+    "heavy": {
+      "description": "Comprehensive oversight with formal stage gates and approvals",
+      "characteristics": {
+        "documentation": "comprehensive",
+        "approvals": "formal",
+        "reporting": "detailed",
+        "stage_gates": "rigorous"
+      },
+      "required_processes": [
+        "Business Case Development",
+        "Project Charter",
+        "Comprehensive Planning",
+        "Risk Management",
+        "Quality Management",
+        "Procurement Management",
+        "Stakeholder Management",
+        "Communication Management",
+        "Integration Management",
+        "Change Management",
+        "Performance Management",
+        "Project Closure"
+      ],
+      "optional_processes": [
+        "Benefits Management",
+        "Knowledge Management"
+      ]
+    }
+  },
+  "process_templates": {
+    "project_initiation": {
+      "pmbok_reference": "4.1 Develop Project Charter",
+      "prince2_reference": "SU - Starting up a Project",
+      "iso21502_reference": "4.4.2 Project initiation",
+      "activities": [
+        "Define project purpose and objectives",
+        "Identify key stakeholders",
+        "Assess project feasibility",
+        "Create project charter",
+        "Obtain project authorization"
+      ],
+      "deliverables": [
+        "Project Charter",
+        "Stakeholder Register",
+        "Feasibility Study"
+      ]
+    },
+    "scope_management": {
+      "pmbok_reference": "5.1-5.6 Project Scope Management",
+      "prince2_reference": "Product-based Planning",
+      "iso21502_reference": "5.9 Scope management",
+      "activities": [
+        "Plan scope management",
+        "Collect requirements",
+        "Define scope",
+        "Create work breakdown structure",
+        "Validate scope",
+        "Control scope"
+      ],
+      "deliverables": [
+        "Scope Management Plan",
+        "Requirements Documentation",
+        "Project Scope Statement",
+        "Work Breakdown Structure"
+      ]
+    },
+    "risk_management": {
+      "pmbok_reference": "11.1-11.7 Project Risk Management",
+      "prince2_reference": "Risk Theme",
+      "iso21502_reference": "5.4 Risk management",
+      "activities": [
+        "Plan risk management",
+        "Identify risks",
+        "Perform qualitative risk analysis",
+        "Perform quantitative risk analysis",
+        "Plan risk responses",
+        "Implement risk responses",
+        "Monitor risks"
+      ],
+      "deliverables": [
+        "Risk Management Plan",
+        "Risk Register",
+        "Risk Response Plans",
+        "Risk Reports"
+      ]
+    },
+    "quality_management": {
+      "pmbok_reference": "8.1-8.3 Project Quality Management",
+      "prince2_reference": "Quality Theme",
+      "iso21502_reference": "5.10 Quality management",
+      "activities": [
+        "Plan quality management",
+        "Manage quality",
+        "Control quality"
+      ],
+      "deliverables": [
+        "Quality Management Plan",
+        "Quality Metrics",
+        "Quality Control Measurements",
+        "Quality Reports"
+      ]
+    },
+    "stakeholder_management": {
+      "pmbok_reference": "13.1-13.4 Project Stakeholder Management",
+      "prince2_reference": "Organization Theme",
+      "iso21502_reference": "5.7 Stakeholder management",
+      "activities": [
+        "Identify stakeholders",
+        "Plan stakeholder engagement",
+        "Manage stakeholder engagement",
+        "Monitor stakeholder engagement"
+      ],
+      "deliverables": [
+        "Stakeholder Register",
+        "Stakeholder Engagement Plan",
+        "Stakeholder Engagement Reports"
+      ]
+    },
+    "communication_management": {
+      "pmbok_reference": "10.1-10.3 Project Communications Management",
+      "prince2_reference": "Progress Theme",
+      "iso21502_reference": "5.8 Communication management",
+      "activities": [
+        "Plan communications management",
+        "Manage communications",
+        "Monitor communications"
+      ],
+      "deliverables": [
+        "Communications Management Plan",
+        "Project Communications",
+        "Communication Reports"
+      ]
+    },
+    "procurement_management": {
+      "pmbok_reference": "12.1-12.3 Project Procurement Management",
+      "prince2_reference": "Managing Product Delivery",
+      "iso21502_reference": "5.5 Procurement management",
+      "activities": [
+        "Plan procurement management",
+        "Conduct procurements",
+        "Control procurements"
+      ],
+      "deliverables": [
+        "Procurement Management Plan",
+        "Procurement Documents",
+        "Agreements",
+        "Procurement Reports"
+      ]
+    }
+  },
+  "decision_gates": {
+    "light_governance": [
+      {
+        "name": "Project Start",
+        "criteria": ["Project charter approved", "Initial team assigned"],
+        "deliverables": ["Project Charter", "Team Assignment"]
+      },
+      {
+        "name": "Mid-Project Review",
+        "criteria": ["50% completion", "Budget on track", "Quality acceptable"],
+        "deliverables": ["Progress Report", "Quality Review"]
+      },
+      {
+        "name": "Project Closure",
+        "criteria": ["All deliverables completed", "Stakeholder acceptance"],
+        "deliverables": ["Final Report", "Lessons Learned"]
+      }
+    ],
+    "moderate_governance": [
+      {
+        "name": "Project Authorization",
+        "criteria": ["Business case approved", "Resources allocated", "Risks assessed"],
+        "deliverables": ["Business Case", "Project Charter", "Risk Register"]
+      },
+      {
+        "name": "Planning Approval",
+        "criteria": ["Plans reviewed", "Budget approved", "Team ready"],
+        "deliverables": ["Project Management Plan", "Budget Approval", "Team Charter"]
+      },
+      {
+        "name": "Stage Reviews",
+        "criteria": ["Stage objectives met", "Quality criteria satisfied", "Risks managed"],
+        "deliverables": ["Stage Report", "Quality Review", "Risk Update"]
+      },
+      {
+        "name": "Project Closure",
+        "criteria": ["All deliverables accepted", "Benefits realized", "Lessons captured"],
+        "deliverables": ["Final Report", "Benefits Report", "Lessons Learned"]
+      }
+    ],
+    "heavy_governance": [
+      {
+        "name": "Business Case Approval",
+        "criteria": ["Strategic alignment", "Financial justification", "Risk assessment"],
+        "deliverables": ["Business Case", "Financial Analysis", "Risk Assessment"]
+      },
+      {
+        "name": "Project Initiation",
+        "criteria": ["Charter approved", "Governance established", "Team formed"],
+        "deliverables": ["Project Charter", "Governance Framework", "Team Structure"]
+      },
+      {
+        "name": "Planning Gate",
+        "criteria": ["Comprehensive plans", "Budget approval", "Risk mitigation"],
+        "deliverables": ["Project Management Plan", "Budget", "Risk Management Plan"]
+      },
+      {
+        "name": "Stage Gates",
+        "criteria": ["Stage completion", "Quality assurance", "Stakeholder approval"],
+        "deliverables": ["Stage Report", "Quality Audit", "Stakeholder Sign-off"]
+      },
+      {
+        "name": "Benefits Review",
+        "criteria": ["Benefits realized", "ROI achieved", "Success criteria met"],
+        "deliverables": ["Benefits Report", "ROI Analysis", "Success Metrics"]
+      },
+      {
+        "name": "Project Closure",
+        "criteria": ["All objectives met", "Handover complete", "Lessons documented"],
+        "deliverables": ["Final Report", "Handover Documentation", "Lessons Learned"]
+      }
+    ]
+  }
+}
